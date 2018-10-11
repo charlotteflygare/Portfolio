@@ -1,13 +1,17 @@
 import React from "react"
+import { HashRouter as Router, Route, Link } from "react-router-dom"
 import Footer from "./footer"
 import Workexample from "./workexample/workexample.js"
 import Skills from "./skills.js"
 import Studies from "./studies.js"
 import "./app.css"
+import Projectpage from "./projectpage/projectpage"
+import projectJSon from "../projects.json"
 
 
 
-class App extends React.Component {
+
+class Startpage extends React.Component {
 
   render() {
     return (
@@ -40,4 +44,4 @@ class App extends React.Component {
 
 }
 
-export default App
+export default Startpage

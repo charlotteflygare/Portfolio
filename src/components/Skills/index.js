@@ -5,12 +5,13 @@ class Skills extends React.Component {
 
   render() {
     return (
+
   <div className="Skills">
-    <h1>Skills</h1>
+    <h2>Skills</h2>
     <div className="SkillsContainer">
       <div className="List">
         <ul>
-          <li><h3>Code</h3></li>
+          <li><h4>Code</h4></li>
           <li><p>HTML 5</p></li>
           <li><p>CS3</p></li>
           <li><p>Javascript ES6</p></li>
@@ -23,7 +24,7 @@ class Skills extends React.Component {
 
       <div className="List">
         <ul>
-          <li><h3>Toolbox</h3></li>
+          <li><h4>Toolbox</h4></li>
           <li><p>Atom</p></li>
           <li><p>Postman</p></li>
           <li><p>Adobe Photoshop</p></li>
@@ -36,7 +37,7 @@ class Skills extends React.Component {
 
       <div className="List">
         <ul>
-          <li><h3>More</h3></li>
+          <li><h4>More</h4></li>
           <li><p>Branding</p></li>
           <li><p>Identity work</p></li>
           <li><p>Digital design</p></li>

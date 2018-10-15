@@ -1,12 +1,12 @@
 import React from "react"
-import Footer from "./footer"
+import Footer from "./Footer"
 import { HashRouter as Router, Route, Link } from "react-router-dom"
-import Workexample from "./workexample/workexample.js"
-import Skills from "./skills.js"
-import Studies from "./studies.js"
+import Workexample from "./Workexample"
+import Skills from "./Skills"
+import Studies from "./Studies"
 import "./app.css"
 import Startpage from "./startpage"
-import Projectpage from "./projectpage/projectpage"
+import Projectpage from "./Projectpage"
 
 
 

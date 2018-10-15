@@ -1,13 +1,16 @@
 {
     "projects": [{
             "id": 1,
-            "title": "Flight form with CSS written with SASS",
-            "image": "./images/flightform.jpg",
-            "description": "Filmdragerad tablett",
-            "codespecs": "500 mg",
-            "toolboxspecs": "20",
-            "morespecs": "Paracetamol"
-        },
+            "company": "Comprend",
+            "title": "Career page",
+            "image": "./images/comprend/comprend_startimage.jpg",
+            "specs": "HTML, CSS, React,",
+            "description": "For our third sprint at Technigo we worked with the fast growing consultancy company Comprend. They have about 80 consultants with skills in digital strategy, project management, UX, visual design, development, content and research with clients like Tele2, SEB, Electrolux, Vattenfall and many more.",
+            "description2": "Our challenge was to build a new career page for Comprend using their internal career API. The overall look and feel of the page should be similar to Comprend's existing page. Comprend’s new career page will be an integrated part of their web page and follow the provided wireframes we received.",
+            "codespecs": "HTML5 CSS Javascript ES6 React Github",
+            "toolboxspecs": "Atom Postman Slack Trello Photoshop",
+            "morespecs": "Mob programming  Kanban board"
+  },
         {
             "id": 2,
             "title": "Product listing page in React",

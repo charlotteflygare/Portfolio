@@ -1,3 +1,8 @@
+@import url("https://use.typekit.net/lgh8cir.css");
+* {
+  box-sizing: border-box;
+}
+
 h1 {
   font-family: "neue-haas-grotesk-display",sans-serif;
   font-size: 40px;
@@ -6,27 +11,29 @@ h1 {
 
 p {
   font-family: "neue-haas-grotesk-display",sans-serif;
-  font-size: 16px;
+  font-size: 20px;
+  line-height: 1.3;
   letter-spacing: 1.5px;
-
 }
 
-.App {
+/* .App {
   margin-left: 60px;
   margin-right: 60px;
-}
+} */
 
 .LandingPage {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #ffffff;
 }
 
 .About {
   display: flex;
-  flex-direction: row;
-  width: 70%;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 150px;
 }
 
 .About-image {
@@ -35,24 +42,40 @@ p {
 }
 
 .About-text {
-  width: 50%;
-  background-color: lightgrey;
+  width: 100%;
+}
 
+.About-text h1 {
+    font-family: "ff-dagny-web-pro", sans-serif;
+    color: #000000;
+    font-size: 74px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.1;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.About-text p {
+    font-family: "neue-haas-grotesk-display",sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
 }
 
 .Tech {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 70%;
+  width: 100%;
 }
 
 .Skills {
-  width: 70%;
+  width: 100%;
   text-align: left;
 }
 
 .Studies {
-  width: 70%;
+  width: 100%;
   text-align: left;
 }

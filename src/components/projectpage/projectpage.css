@@ -1,0 +1,149 @@
+.projectpage-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.projectpage {
+  /* margin-top: 50px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.projectpage-text-top {
+  height: 250px;
+  width: 100%;
+  margin-top: 150px;
+}
+
+.projectpage-text-top h4 {
+  font-family: "ff-dagny-web-pro", sans-serif;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 150px;
+  line-height: 1.1;
+  width: 100%;
+  margin-bottom: 0px;
+
+}
+
+.projectpage-text-top h1 {
+  font-family: "ff-dagny-web-pro", sans-serif;
+  color: #000000;
+  font-size: 74px;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 150px;
+  line-height: 1.1;
+  width: 100%;
+  margin-top: 0px;
+}
+
+
+
+.projectpage-image img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.projectpage-image {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+  z-index: 2;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.projectpage-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.projectpage-text-left {
+  text-align: left;
+}
+
+.projectpage-text-right {
+  width: 55%;
+  text-align: left;
+}
+.projectpage-text-left p {
+  font-family: "neue-haas-grotesk-display",sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+}
+
+.projectpage-text-right p{
+  font-family: "neue-haas-grotesk-display",sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+}
+
+.projectpage-tech-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.projectpage-tech-list ul {
+  list-style: none;
+  padding: 0px;
+  font-size: 20px;
+  margin: 0px;
+  text-align: left;
+  line-height: 1.3;
+  color: #999999;
+
+}
+
+.projectpage-tech-list-code {
+  width: 5%;
+}
+
+.projectpage-tech-list-toolbox {
+  width: 5%;
+}
+
+.projectpage-tech-list-more {
+  width: 15%;
+}
+.projectpage-tech-section h4 {
+  /* font-family: "ff-dagny-web-pro", sans-serif; */
+  font-family: "neue-haas-grotesk-display",sans-serif;
+
+  color: #000000;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.1;
+  margin-bottom: 5px;
+}
+
+.projectpage-tech-section h2 {
+  /* font-family: "ff-dagny-web-pro", sans-serif; */
+  font-family: "neue-haas-grotesk-display",sans-serif;
+
+  color: #000000;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding: 0px;
+  line-height: 1.1;
+}
+
+.projectpage-tech-section {
+  margin-bottom: 60px;
+}

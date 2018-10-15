@@ -1,35 +1,47 @@
 @import url("https://use.typekit.net/lgh8cir.css");
 
-a, p, h4 {
-  font-family: "neue-haas-grotesk-display",sans-serif;
-  margin: 0;
+.footer a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
-a {
-  text-decoration: none;
-  color: #000000;
+.footer-info p {
+  font-family: "neue-haas-grotesk-display",sans-serif;
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.footer-social p {
+  font-family: "neue-haas-grotesk-display",sans-serif;
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+
 }
 
 .footer {
-  width: 70%;
   margin-left: auto;
   margin-right: auto;
+  background-color: #000000;
+  width: 100%;
 }
 
 .footer-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  color: #000000;
-  height: 200px;
+  /* justify-content: space-around; */
+  color: #ffffff;
+  height: 250px;
+  padding: 0 20px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
 }
 
-
-.footer-info p {
-  margin: 0px;
-  font-size: 40px;
-  font-weight: 600;
-}
 
 .footer-header {
   font-size: 18px;
@@ -43,17 +55,29 @@ a {
   margin: 0px;
 }
 
-.footer-info {
-  width: 70%;
-  background-color: grey;
-}
-.footer-social {
-  width: 70%;
-  background-color: lightgrey;
+.footer-header h4 {
+  font-size: 20px;
+  margin: 0px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  margin-bottom: 30px;
 }
 
-.footer-social p {
+.footer-header-soc h4 {
+  font-size: 20px;
   margin: 0px;
-  font-size: 40px;
   font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+}
+
+
+.footer-info {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-social {
+  margin-left: 100px;
+  padding: 0px;
 }

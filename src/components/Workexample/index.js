@@ -10,29 +10,29 @@ class Workexample extends React.Component {
   render() {
     return (
       <div className="Workexample-container">
-        <div className="workexample">
-        <div className="workexample-image1">
-         <Link to="/projectpage/1"><img src="./images/comprend/workexample_comprend.jpg" /></Link>
-       </div>
-          <div className="workexample-text1">
-            <h4>Career page for Comprend</h4>
-          </div>
 
+        <div className="workexample">
+          <div className="workexample-image1">
+           <Link to="/projectpage/1"><img src="./images/flightform.jpg" /></Link>
+          </div>
+          <div className="workexample-text1">
+            <p>Career page for Comprend</p>
+          </div>
          </div>
 
          <div className="workexample">
+         <div className="workexample-image2">
+           <Link to="/projectpage/2"><img src="./images/flightform.jpg" /></Link>
+         </div>
           <div className="workexample-text2">
-            <h4>Techspressen</h4>
-          </div>
-          <div className="workexample-image2">
-            <Link to="/projectpage/2"><img src="./images/flightform.jpg" /></Link>
+            <p>Techspressen</p>
           </div>
            </div>
 
 
           <div className="workexample">
           <div className="workexample-text3">
-            <h4>Form</h4>
+            <p>Form</p>
           </div>
           <div className="workexample-image3">
             <Link to="/projectpage/3"><img src="./images/flightform.jpg" /></Link>
@@ -42,7 +42,7 @@ class Workexample extends React.Component {
 
            <div className="workexample">
            <div className="workexample-text4">
-             <h4>Clock</h4>
+             <p>Clock</p>
            </div>
            <div className="workexample-image4">
               <Link to="/projectpage/4"><img src="./images/flightform.jpg" /></Link>

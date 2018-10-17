@@ -18,8 +18,10 @@ class Startpage extends React.Component {
         <div className="About">
         <div className="About-text">
           <h1>Frontend developer and graphic designer</h1>
-          <p>My name is Charlotte Flygare and I am a graphic designer with frontend developer skills in HTML, javascript and React.
-             I love sneakers, to code and spend time with my family.</p>
+          <p>My name is Charlotte Flygare, I am 36 years old and live in Gröndal in Stockholm with my husband and daugther.
+          Currently I work as a graphic designer at the design- and advertising agency FamiljenPangea. There I do
+          everything from branding to designing websites. Besides art, form and fashion my newest interest is to code in Atom,
+          especially in React. I love problemsolving but mostly details in making websites</p>
         </div>
 
           <div className="About-image">

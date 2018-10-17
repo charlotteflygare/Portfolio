@@ -21,7 +21,7 @@ class Footer extends React.Component {
           <div className="footer-header-soc">
             <h4>Social media</h4>
           </div>
-            <a href="https://www.linkedin.com/in/charlotte-flygare/?originalSubdomain=se"><p>LinkedIn</p></a>
+            <a href="https://www.linkedin.com/in/charlotte-flygare/?originalSubdomain=se" target="_blank"><p>LinkedIn</p></a>
             <a href="https://www.facebook.com/charlotte.flygare"><p>Facebook</p></a>
           </div>
 

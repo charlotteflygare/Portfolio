@@ -21,18 +21,18 @@ class Startpage extends React.Component {
           <p>My name is Charlotte Flygare, I am 36 years old and live in Gröndal in Stockholm with my husband and daugther.
           Currently I work as a graphic designer at the design- and advertising agency FamiljenPangea. There I do
           everything from branding to designing websites. Besides art, form and fashion my newest interest is to code in Atom,
-          especially in React. I love problemsolving but mostly details in making websites</p>
+          especially in React. I love problemsolving but mostly looking in to details.</p>
         </div>
 
-          <div className="About-image">
-            <img src=""/>
-          </div>
+        <div className="About-image">
+          <img src=""/>
+        </div>
 
         </div>
         <div className="Tech">
           <h2>Tech</h2>
           <p>480 coding hours | 50+ individual task | HTML, CSS, Flexbox, Javascript, ES6, React, API:s | 3 sprints
-             together with the companies Volumental, Bonnier and Comprens. </p>
+             together with the companies Volumental, Bonnier and Comprend. </p>
         </div>
           <Workexample />
           <Skills />

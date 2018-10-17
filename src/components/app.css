@@ -12,8 +12,10 @@ h1 {
 p {
   font-family: "neue-haas-grotesk-display",sans-serif;
   font-size: 20px;
-  line-height: 1.3;
+  line-height: 1.5;
   letter-spacing: 1.5px;
+  margin: 0px;
+
 }
 
 /* .App {
@@ -39,6 +41,8 @@ p {
 .About-image {
   width: 50%;
   background-color: grey;
+  margin-bottom: 60px;
+
 }
 
 .About-text {
@@ -68,6 +72,20 @@ p {
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  margin-bottom: 30px;
+}
+
+.Tech h2 {
+    font-family: "neue-haas-grotesk-display",sans-serif;
+    letter-spacing: 0.5px;
+    margin: 0px;
+    text-align: left;
+    color: #000000;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    line-height: 1.5;
 }
 
 .Skills {

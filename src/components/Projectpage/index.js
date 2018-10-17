@@ -14,7 +14,7 @@ class Projectpage extends React.Component {
 
    return (
      <div className="projectpage-container">
-       <div className="projectpage">
+       <div className="projectpage1">
           <div className="projectpage-text-top">
             <h4>{project.company}</h4>
             <h1>{project.title}</h1>

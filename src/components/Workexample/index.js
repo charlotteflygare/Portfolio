@@ -22,7 +22,7 @@ class Workexample extends React.Component {
 
          <div className="workexample">
          <div className="workexample-image2">
-           <Link to="/projectpage/2"><img src="./images/flightform.jpg" /></Link>
+           <Link to="/projectpage/2"><img src="./images/techspressen/techspressen_logo.png" /></Link>
          </div>
           <div className="workexample-text2">
             <p>Techspressen</p>

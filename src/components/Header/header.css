@@ -1,0 +1,68 @@
+@import url("https://use.typekit.net/lgh8cir.css");
+
+
+.header {
+  max-width: 900px;
+}
+
+.header-container {
+  max-width: 900px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 16px 20px 16px 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-info {
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-info h4 {
+  font-family: "neue-haas-grotesk-display",sans-serif;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: 0.5px;
+  line-height: 28px;
+}
+
+.header-info a {
+  text-decoration: none;
+}
+
+.header-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header-list li {
+  text-decoration: none;
+  list-style: none;
+  margin-left: 3vw;
+  font-family: "neue-haas-grotesk-display",sans-serif;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 48px;
+
+}

@@ -8,6 +8,7 @@ import "./app.css"
 import Projectpage from "./Projectpage"
 import projectJSon from "../projects.json"
 import Grid from "./Grid"
+import Header from "./Header"
 
 class Startpage extends React.Component {
 
@@ -15,6 +16,8 @@ class Startpage extends React.Component {
     return (
       <div className="LandingPage">
       <Grid>
+      <Header />
+
         <div className="About">
         <div className="About-text">
           <h1>Frontend developer and graphic designer</h1>
@@ -29,8 +32,8 @@ class Startpage extends React.Component {
         </div>
 
         </div>
-        <div className="Tech">
-          <h2>Tech</h2>
+        <div className="Work">
+          <h2>Work</h2>
           <p>480 coding hours | 50+ individual task | HTML, CSS, Flexbox, Javascript, ES6, React, API:s | 3 sprints
              together with the companies Volumental, Bonnier and Comprend. </p>
         </div>

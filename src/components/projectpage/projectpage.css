@@ -16,7 +16,7 @@
 }
 
 .projectpage-text-top h4 {
-  font-family: "ff-dagny-web-pro", sans-serif;
+  font-family: "neue-haas-grotesk-display",sans-serif;
   color: #000000;
   font-size: 18px;
   font-weight: 400;
@@ -25,14 +25,13 @@
   line-height: 1.1;
   width: 100%;
   margin-bottom: 0px;
-
 }
 
 .projectpage-text-top h1 {
-  font-family: "ff-dagny-web-pro", sans-serif;
+  font-family: "neue-haas-grotesk-display",sans-serif;
   color: #000000;
   font-size: 74px;
-  font-weight: 400;
+  font-weight: 500;
   text-align: left;
   margin-left: 150px;
   line-height: 1.1;
@@ -98,11 +97,12 @@
 .projectpage-tech-list ul {
   list-style: none;
   padding: 0px;
-  font-size: 20px;
-  margin: 0px;
   text-align: left;
-  line-height: 1.3;
-  color: #999999;
+  font-family: "neue-haas-grotesk-display",sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+  margin: 0px;
 
 }
 
@@ -137,11 +137,11 @@
 
   color: #000000;
   text-align: left;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   padding: 0px;
-  line-height: 1.1;
+  line-height: 1.5;
 }
 
 .projectpage-tech-section {

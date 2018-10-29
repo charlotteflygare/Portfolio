@@ -15,7 +15,7 @@ class Footer extends React.Component {
             </div>
               <p>Charlotte Flygare</p>
               <p>+46(0)703223906</p>
-              <p>charlotte.flygare@gmail.com</p>
+              <a><p>charlotte.flygare@gmail.com</p></a>
             </div>
         <div className="footer-social">
           <div className="footer-header-soc">

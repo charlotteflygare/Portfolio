@@ -82,3 +82,7 @@
   margin-left: 100px;
   padding: 0px;
 }
+
+.footer a:hover {
+  text-decoration: underline;
+}

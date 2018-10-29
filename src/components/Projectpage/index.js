@@ -38,7 +38,7 @@ class Projectpage extends React.Component {
           </div>
 
        <div className="projectpage-tech-section">
-        <h2>Techs Specs</h2>
+        <h2>Skills</h2>
           <div className="projectpage-tech-list">
             <div className="projectpage-tech-list-code">
               <h4>Code</h4>
@@ -55,14 +55,15 @@ class Projectpage extends React.Component {
 
             </div>
      </div>
+
+
      </Grid>
 
-   <Footer />
 
    </div>
+   <Footer />
 
     </div>
-
 
 
    )

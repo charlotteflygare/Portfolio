@@ -13,12 +13,14 @@
   },
         {
             "id": 2,
-            "title": "Product listing page in React",
-     "image": "./images/productpage.png",
-     "description": "Filmdragerad tablett",
-     "codespecs": "500 mg",
-     "toolboxspecs": "20",
-     "morespecs": "Paracetamol"
+            "company": "Expressen",
+            "title": "Newspaper",
+            "image": "./images/productpage.png",
+            "specs": "HTML, CSS, Javascript, API",
+            "description": "Filmdragerad tablett",
+            "codespecs": "HTML5 CSS Javascript ES6 React Github",
+            "toolboxspecs": "Atom Postman Slack Sketch Trello Photoshop",
+            "morespecs": "Mob programming  Kanban board"
         },
         {
             "id": 3,

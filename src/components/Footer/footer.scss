@@ -5,6 +5,14 @@
   color: #ffffff;
 }
 
+.landing-page-contact {
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  background-color: #ffffff;
+}
+
 .footer-info p {
   font-family: "neue-haas-grotesk-display",sans-serif;
   margin: 0px;
@@ -37,7 +45,7 @@
   color: #ffffff;
   height: 250px;
   padding: 0 20px;
-  width: 900px;
+  width: 1000px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
@@ -79,7 +87,7 @@
 }
 
 .footer-social {
-  margin-left: 100px;
+  margin: 0 0 0 100px;
   padding: 0px;
 }
 

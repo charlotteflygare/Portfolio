@@ -1,14 +1,12 @@
-import React from "react"
-import "./footer.css"
-import Grid from "../Grid"
-
+import React, { Component } from "react"
+import "./footer.scss"
 
 class Footer extends React.Component {
+
   render() {
     return (
       <div className="footer">
         <div className="footer-container">
-
           <div className="footer-info">
             <div className="footer-header">
               <h4>Contact</h4>
@@ -21,10 +19,9 @@ class Footer extends React.Component {
           <div className="footer-header-soc">
             <h4>Social media</h4>
           </div>
-            <a href="https://www.linkedin.com/in/charlotte-flygare/?originalSubdomain=se" target="_blank"><p>LinkedIn</p></a>
-            <a href="https://www.facebook.com/charlotte.flygare"><p>Facebook</p></a>
+            <a href="https://www.linkedin.com/in/charlotte-flygare/?originalSubdomain=se" target="_blank" rel="noopener"><p>LinkedIn</p></a>
+            <a href="https://www.facebook.com/charlotte.flygare" target="_blank" rel="noopener"><p>Facebook</p></a>
           </div>
-
         </div>
       </div>
     )

@@ -1,0 +1,37 @@
+@import url("https://use.typekit.net/lgh8cir.css");
+* {
+  box-sizing: border-box;
+}
+
+.landing-page-contact {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  margin: 200px 0 0 0;
+  width: 1000px;
+}
+
+.contact-container  p {
+  font-family: "neue-haas-grotesk-display",sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+}
+
+.contact-container h2 {
+  font-family: "neue-haas-grotesk-display",sans-serif;
+  letter-spacing: 0.5px;
+  margin: 0px;
+  text-align: left;
+  color: #000000;
+  text-align: left;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}

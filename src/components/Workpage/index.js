@@ -1,15 +1,23 @@
 import React from "react"
+import "./workpage.scss"
 import { HashRouter as Router, Route, Link } from "react-router-dom"
 import projectsJson from "../../projects.json"
+import Footer from "../Footer"
 import Grid from "../Grid"
-import "./workexample.scss"
+import Header from "../Header"
 
-class Workexample extends React.Component {
+
+class Workpage extends React.Component {
 
   render() {
     return (
-      <div className="workexample-container-workexample">
+      <div className="landing-workpage">
 
+      <Grid>
+      <Header />
+      <div className="workexample-intro"><h1>Working with graphic design and coding makes an ever bigger impact</h1></div>
+
+      <div className="workexample-container">
         <div className="workexample">
           <div className="workexample-image1">
            <Link to="/projectpage/1"><img src="./images/comprend/comprend_thumb.jpg" alt="workexample comprend thumbnail"/></Link>
@@ -56,10 +64,13 @@ class Workexample extends React.Component {
 
         </div>
 
+        </Grid>
+        <Footer />
+</div>
 
     )
   }
 
 }
 
-export default Workexample
+export default Workpage

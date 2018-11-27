@@ -9,36 +9,43 @@
             "description2": "Our challenge was to build a new career page for Comprend using their internal career API. The overall look and feel of the page should be similar to Comprend's existing page. Comprend’s new career page will be an integrated part of their web page and follow the provided wireframes we received.",
             "codespecs": "HTML5 CSS Javascript ES6 React Github",
             "toolboxspecs": "Atom Postman Slack Trello Photoshop",
-            "morespecs": "Mob programming  Kanban board"
+            "morespecs": "Mob programming  Kanban board",
+            "link": "https://github.com/Technigo/Sprint-3-Team-2-Fall18"
   },
         {
             "id": 2,
             "company": "Expressen",
             "title": "Newspaper",
-            "image": "./images/productpage.png",
+            "image": "./images/techspressen/techspressen_startimage.jpg",
             "specs": "HTML, CSS, Javascript, API",
-            "description": "Filmdragerad tablett",
-            "codespecs": "HTML5 CSS Javascript ES6 React Github",
-            "toolboxspecs": "Atom Postman Slack Sketch Trello Photoshop",
-            "morespecs": "Mob programming  Kanban board"
+            "description": "For our second sprint at Technigo we got the chance to discover what an API is, learn how to make API requests using Javascript and use JSON data in our own project. For us this meant that we no longer were making static web pages, we were actually building web pages with dynamic content that automatically updated itself when new data is available. Our challenge this sprint was to build an online newspaper with our own theme using the Google News API. Here we should let the design reflect on what type of newspaper we were to build.",
+            "description2": "The project is made on Bonnier Groups behalf. With over 170+ companies and close to 10.000 employees the Bonnier group is the nordic region's leading media company. To our help, we had three days at the Bonnier office to get help from their developers along the way. We teamed up with Expressen.",
+            "codespecs": "HTML5 CSS Javascript CSS-Grid ES6 Github",
+            "toolboxspecs": "Atom GoogleApi Postman Slack Sketch Trello Photoshop",
+            "morespecs": "Mob programming  Kanban board",
+            "link": "https://github.com/Technigo/Sprint-2-Team-3-Fall18"
         },
         {
             "id": 3,
-            "title": "Signup form which posts the data into a HTTPbin",
-     "image": "./images/form.png",
-            "description": "Filmdragerad tablett",
-            "codespecs": "500 mg",
-            "toolboxspecs": "20",
-            "morespecs": "Paracetamol"
+            "company": "Own assignment",
+            "title": "Signup form",
+            "image": "./images/form/form_startimage.jpg",
+            "description": "The assignment was to build a signup form for a web service and style it according to how I want it to look. In the end you will also post the data from the form into a service called HTTPbin and it should show the data you put in. It is basically a server and will work in the same was as if we posted this data to our own server to for example create a user account.",
+            "codespecs": "HTML5 CSS ES6 Github",
+            "toolboxspecs": "Atom Slack",
+            "morespecs": "HTTPbin",
+            "link": "https://github.com/charlotteflygare/forms"
         },
         {
             "id": 4,
-            "title": "Radio player built in React using Sveriges Radios API:s",
-     "image": "./images/radioplayer.png",
-            "description": "Filmdragerad tablett",
-            "codespecs": "500 mg",
-            "toolboxspecs": "20",
-            "morespecs": "Paracetamol"
+            "company": "Own assignment",
+            "title": "Todo App",
+            "image": "./images/radioplayer.png",
+            "description": "In this assignment the last was to build a todo app in React. The app should be able to: list all items, create a new item and mark an item as complete. I started of by building the form and handling state changes. After that I upgraded the app to use local storage to save state so that when the user reloads the page, they don't lose their todos.",
+            "codespecs": "HTML5 CSS ES6 React Github",
+            "toolboxspecs": "Atom Slack",
+            "morespecs": "React starter",
+            "link": "https://github.com/charlotteflygare/todo-app"
         }
 
     ]

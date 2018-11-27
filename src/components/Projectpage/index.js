@@ -1,9 +1,11 @@
 import React from "react"
 import { HashRouter as Router, Route, Link } from "react-router-dom"
-import "./projectpage.css"
+import "./projectpage.scss"
 import projectsJson from "../../projects.json"
 import Footer from "../Footer"
 import Grid from "../Grid"
+import Button from "../Button"
+import Header from "../Header"
 
 class Projectpage extends React.Component {
 
@@ -14,14 +16,17 @@ class Projectpage extends React.Component {
 
    return (
      <div className="projectpage-container">
+     <Header />
+
        <div className="projectpage1">
+
           <div className="projectpage-text-top">
             <h4>{project.company}</h4>
             <h1>{project.title}</h1>
           </div>
 
           <div className="projectpage-image">
-            <img src={project.image}/>
+            <img src={project.image} alt="projectpage image"/>
           </div>
 
           <Grid>
@@ -52,10 +57,13 @@ class Projectpage extends React.Component {
               <h4>More</h4>
               <ul><li>{project.morespecs}</li></ul>
             </div>
-
             </div>
      </div>
-
+     <div className="button-to-github">
+       <a href= {project.link} target="_blank">
+         <Button>View the code</Button>
+       </a>
+        </div>
 
      </Grid>
 

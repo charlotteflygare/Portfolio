@@ -1,10 +1,11 @@
 
-.Workexample-container {
+.workexample-container-workexample {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0px;
+  overflow:hidden;
 }
 
 .workexample {
@@ -12,7 +13,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  overflow: hidden;
 }
 
 
@@ -22,15 +24,24 @@
   object-fit: contain;
   overflow: hidden;
   margin-bottom: 0px;
-
 }
 
 .workexample p {
-  color: #000000;
+  color: #999999;
   font-size: 20px;
-  font-weight: 500;
-  width: 100%;
+  font-weight: 400;
   margin: 0px;
   text-align: left;
   font-family: "neue-haas-grotesk-display",sans-serif;
+}
+
+.workexample h4 {
+  font-family: "neue-haas-grotesk-display",sans-serif;
+  color: #000000;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 0 0 0;
+  padding: 0px;
+  letter-spacing: 1px;
 }

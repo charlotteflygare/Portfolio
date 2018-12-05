@@ -10,7 +10,10 @@
             "codespecs": "HTML5 CSS Javascript ES6 React Github",
             "toolboxspecs": "Atom Postman Slack Trello Photoshop",
             "morespecs": "Mob programming  Kanban board",
-            "link": "https://github.com/Technigo/Sprint-3-Team-2-Fall18"
+            "link": "https://github.com/Technigo/Sprint-3-Team-2-Fall18",
+            "image2": "./images/comprend/comprend_case_1.webp",
+            "image3": "./images/comprend/comprend_case_2.webp"
+
   },
         {
             "id": 2,
@@ -34,7 +37,9 @@
             "codespecs": "HTML5 CSS ES6 Github",
             "toolboxspecs": "Atom Slack",
             "morespecs": "HTTPbin",
-            "link": "https://github.com/charlotteflygare/forms"
+            "link": "https://github.com/charlotteflygare/forms",
+            "image2": "./images/form/form_case_1.webp",
+            "image3": "./images/form/form_case_2.webp"
         },
         {
             "id": 4,

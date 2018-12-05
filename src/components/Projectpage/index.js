@@ -18,6 +18,7 @@ class Projectpage extends React.Component {
      <div className="projectpage-container">
      <Header />
 
+
        <div className="projectpage1">
 
           <div className="projectpage-text-top">
@@ -38,8 +39,15 @@ class Projectpage extends React.Component {
              <div className="projectpage-text-right">
               <p>{project.description}</p>
               <p>{project.description2}</p>
-
             </div>
+          </div>
+
+          <div className="projectpage-image">
+            <img src={project.image2} alt="projectpage image"/>
+          </div>
+
+          <div className="projectpage-image">
+            <img src={project.image3} alt="projectpage image"/>
           </div>
 
        <div className="projectpage-tech-section">

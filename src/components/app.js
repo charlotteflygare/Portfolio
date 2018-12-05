@@ -17,7 +17,7 @@ class App extends React.Component {
 
   render() {
     return (
-    <Router>
+    <Router onUpdate={() => window.scrollTo(0, 0)}>
       <div>
         <Route path="/" exact="true" component={Startpage}/>
         <Route path="/projectpage/:id" exact="true" component={Projectpage}/>

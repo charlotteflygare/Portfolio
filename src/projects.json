@@ -1,6 +1,21 @@
 {
     "projects": [{
             "id": 1,
+            "company": "Min Doktor",
+            "title": "Campaign page",
+            "image": "./images/somn/somn.svg",
+            "specs": "HTML, CSS, React,",
+            "description": "Today sleep problems are common and often depend on stress or major changes in life. Most people find that they have a lack of sleep for short periods. If the sleep disorder does not cross itself but gets worse, you may need help to break the vicious circle.",
+            "description2": "One of our campaign ideas for customer Min Doktor was to compete in sleep, in the competition Sleep - SM. Here you compete in different competition classes, like for example gender.",
+            "codespecs": "HTML5 CSS Javascript ES6 React Github",
+            "toolboxspecs": "Atom Postman Slack Trello Illustrator Photoshop Netlify",
+            "morespecs": "Kanban board",
+            "link": "https://focused-mestorf-a334be.netlify.com/",
+            "image2": "./images/somn/somn_case1.webp",
+            "image3": "./images/somn/somn_case2.webp"
+  },
+        {
+            "id": 2,
             "company": "Comprend",
             "title": "Career page",
             "image": "./images/comprend/comprend_startimage.jpg",
@@ -16,7 +31,7 @@
 
   },
         {
-            "id": 2,
+            "id": 3,
             "company": "Expressen",
             "title": "Newspaper",
             "image": "./images/techspressen/techspressen_startimage.jpg",
@@ -29,7 +44,7 @@
             "link": "https://github.com/Technigo/Sprint-2-Team-3-Fall18"
         },
         {
-            "id": 3,
+            "id": 4,
             "company": "Own assignment",
             "title": "Signup form",
             "image": "./images/form/form_startimage.jpg",
@@ -42,7 +57,7 @@
             "image3": "./images/form/form_case_2.webp"
         },
         {
-            "id": 4,
+            "id": 5,
             "company": "Own assignment",
             "title": "Todo App",
             "image": "./images/radioplayer.png",

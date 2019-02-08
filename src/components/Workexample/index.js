@@ -31,26 +31,17 @@ class Workexample extends React.Component {
           </div>
          </div>
 
-         <div className="workexample">
-         <div className="workexample-text2">
-         </div>
-         <div className="workexample-image2">
-           <Link to="/projectpage/3"><img src="./images/techspressen/techspressen_thumb.jpg" alt="workexample techspressen thumbnail"/></Link>
-            <h4>Techspressen</h4>
-            <p>A remake of the newspaper Expressen</p>
-          </div>
-           </div>
+
 
            <div className="workexample">
            <div className="workexample-text4">
            </div>
            <div className="workexample-image4">
-              <Link to="/projectpage/4"><img src="./images/form/form_thumb.jpg" alt="workexample form thumbnail"/></Link>
-              <h4>Form</h4>
-              <p>Create an account in a form</p>
+              <Link to="/projectpage/3"><img src="./images/form/form_thumb.jpg" alt="workexample form thumbnail"/></Link>
+              <h4>Signup form</h4>
+              <p>Posts the data into a HTTPbin</p>
             </div>
             </div>
-
 
 
             <div className="workexample">
@@ -64,6 +55,25 @@ class Workexample extends React.Component {
              </div>
 
 
+             <div className="workexample">
+             <div className="workexample-text4">
+             </div>
+             <div className="workexample-image4">
+                <Link to="/projectpage/5"><img src="./images/form/form_thumb.jpg" alt="workexample form thumbnail"/></Link>
+                <h4>VAT calculator</h4>
+                <p>Built with controlled components in React</p>
+              </div>
+              </div>
+
+              <div className="workexample">
+              <div className="workexample-text2">
+              </div>
+              <div className="workexample-image2">
+                <Link to="/projectpage/6"><img src="./images/techspressen/techspressen_thumb.jpg" alt="workexample techspressen thumbnail"/></Link>
+                 <h4>Techspressen</h4>
+                 <p>A remake of the newspaper Expressen</p>
+               </div>
+                </div>
 
         </div>
 

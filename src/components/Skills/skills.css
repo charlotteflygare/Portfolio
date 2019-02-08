@@ -31,6 +31,7 @@
 
 .skills-list li:hover {
   text-decoration: none;
+  color: #000000;
 }
 
 .skills-list p {

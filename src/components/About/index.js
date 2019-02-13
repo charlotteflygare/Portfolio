@@ -17,9 +17,6 @@ class About extends React.Component {
       <div className="landing-page-about">
       <Grid>
       <Header />
-      <div className="about-image">
-        <img src="" alt="about image"/>
-      </div>
         <div className="about">
         <div className="about-text">
           <h1>Front-end developer and graphic designer</h1>

@@ -21,15 +21,16 @@ class Workexample extends React.Component {
         </div>
        </div>
 
-        <div className="workexample">
-          <div className="workexample-image1">
-           <Link to="/projectpage/2"><img src="./images/comprend/comprend_thumb.jpg" alt="workexample comprend thumbnail"/></Link>
-          </div>
-          <div className="workexample-text1">
-            <h4>Comprend</h4>
-            <p>Career page</p>
-          </div>
-         </div>
+
+                    <div className="workexample">
+                    <div className="workexample-text4">
+                    </div>
+                    <div className="workexample-image4">
+                    <Link to="/projectpage/2"><img src="./images/vat/vatcalc_thumb.jpg" alt="workexample form thumbnail"/></Link>
+                       <h4>VAT calculator</h4>
+                       <p>Built with controlled components in React</p>
+                     </div>
+                     </div>
 
 
 
@@ -55,15 +56,16 @@ class Workexample extends React.Component {
              </div>
 
 
-             <div className="workexample">
-             <div className="workexample-text4">
-             </div>
-             <div className="workexample-image4">
-             <Link to="/projectpage/5"><img src="./images/vat/vatcalc_thumb.jpg" alt="workexample form thumbnail"/></Link>
-                <h4>VAT calculator</h4>
-                <p>Built with controlled components in React</p>
-              </div>
-              </div>
+
+              <div className="workexample">
+                <div className="workexample-image1">
+                 <Link to="/projectpage/5"><img src="./images/comprend/comprend_thumb.jpg" alt="workexample comprend thumbnail"/></Link>
+                </div>
+                <div className="workexample-text1">
+                  <h4>Comprend</h4>
+                  <p>Career page</p>
+                </div>
+               </div>
 
               <div className="workexample">
               <div className="workexample-text2">

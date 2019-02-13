@@ -69,7 +69,7 @@ class Projectpage extends React.Component {
      </div>
      <div className="button-to-github">
        <a href= {project.link} target="_blank">
-         <Button>View the code</Button>
+         <Button>View code/page</Button>
        </a>
         </div>
 

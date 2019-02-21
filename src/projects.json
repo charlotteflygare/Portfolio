@@ -26,7 +26,9 @@
             "toolboxspecs": "Atom Slack Sketch Trello Photoshop",
             "morespecs": "Kanban board",
             "link": "https://github.com/charlotteflygare/vat-calculator",
-            "image2": "./images/vat/vatcalc_case_1.webp"
+            "image2": "./images/vat/vatcalc_case_4.png",
+            "image3": "./images/vat/vatcalc_case_3.webp"
+
         },
         {
             "id": 3,
@@ -45,15 +47,15 @@
             "id": 4,
             "company": "Own assignment",
             "title": "Todo App",
-            "image": "./images/todo/todoapp_thumb.jpg",
+            "image": "./images/todo/todoapp_case2.webp",
             "specs": "HTML, CSS, Javascript",
             "description": "The assignment was to build a todo app in React. The app should be able to: list all items, create a new item and mark an item as complete. I started of by building the form and handling state changes. After that I upgraded the app to use local storage to save state so that when the user reloads the page, they don't lose their todos.",
             "codespecs": "HTML5 CSS ES6 React Github",
             "toolboxspecs": "Atom Slack",
             "morespecs": "React starter",
             "link": "https://github.com/charlotteflygare/todo-app",
-            "image2": "./images/vat/vatcalc_case_1.webp",
-            "image3": "./images/vat/vatcalc_case_1.webp"
+            "image2": "./images/todo/todoapp_case1.webp",
+            "image3": "./images/todo/todoapp_case3.webp"
         },
         {
             "id": 5,

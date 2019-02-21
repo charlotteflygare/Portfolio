@@ -59,7 +59,7 @@ class Workexample extends React.Component {
 
               <div className="workexample">
                 <div className="workexample-image1">
-                 <Link to="/projectpage/5"><img src="./images/comprend/comprend_thumb.jpg" alt="workexample comprend thumbnail"/></Link>
+                 <Link to="/projectpage/5"><img src="./images/comprend/comprend_thumb2.jpg" alt="workexample comprend thumbnail"/></Link>
                 </div>
                 <div className="workexample-text1">
                   <h4>Comprend</h4>
